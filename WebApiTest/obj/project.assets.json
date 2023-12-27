@@ -1,0 +1,85 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApi/1.0.0": {
+      "type": "project",
+      "path": "../WebApi/WebApi.csproj",
+      "msbuildProject": "../WebApi/WebApi.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "WebApi >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\VMAdmin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\ProductsWebapi\\aiswaryawebapi\\WebApi\\WebApiTest\\WebApiTest.csproj",
+      "projectName": "WebApiTest",
+      "projectPath": "C:\\ProductsWebapi\\aiswaryawebapi\\WebApi\\WebApiTest\\WebApiTest.csproj",
+      "packagesPath": "C:\\Users\\VMAdmin\\.nuget\\packages\\",
+      "outputPath": "C:\\ProductsWebapi\\aiswaryawebapi\\WebApi\\WebApiTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\VMAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\ProductsWebapi\\aiswaryawebapi\\WebApi\\WebApi\\WebApi.csproj": {
+              "projectPath": "C:\\ProductsWebapi\\aiswaryawebapi\\WebApi\\WebApi\\WebApi.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
